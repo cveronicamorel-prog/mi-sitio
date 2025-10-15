@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lic. Verónica Humacata — IA simple y práctica</title>
+  <meta name="description" content="Capacitaciones y asesoría para implementar IA en el aula y en equipos de trabajo.">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container">
+      <a class="logo" href="#">Verónica Humacata</a>
+      <a class="cta" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>IA simple y práctica para tus clases y tu equipo</h1>
+        <p>Planificación con IA, talleres exprés y acompañamiento para implementar sin miedo.</p>
+        <div class="actions">
+          <a class="btn" href="#servicios">Ver servicios</a>
+          <a class="btn sec" href="#contacto">Hablemos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="container grid">
+      <article class="card">
+        <h3>Capacitación Docente</h3>
+        <p>Planning con IA, evaluación, ética y buenas prácticas. Modalidad virtual/presencial.</p>
+      </article>
+      <article class="card">
+        <h3>Asesoría a Escuelas</h3>
+        <p>Protocolo de uso de IA, plan de adopción y acompañamiento por niveles.</p>
+      </article>
+      <article class="card">
+        <h3>Talleres para PyMEs</h3>
+        <p>Automatización simple, flujos de prompts y casos reales sin perder el toque humano.</p>
+      </article>
+    </section>
+
+    <section id="contacto" class="container contacto">
+      <h2>Contacto</h2>
+      <p>¿Querés una propuesta a medida? Escribime.</p>
+      <form name="contacto">
+        <label>Nombre <input required></label>
+        <label>Email <input type="email" required></label>
+        <label>Mensaje <textarea rows="4" required></textarea></label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+      <p class="small">Ubicación: Córdoba, Argentina · Instagram / LinkedIn</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">© <span id="y"></span> Verónica Humacata · IA en educación</div>
+  </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
